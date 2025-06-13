@@ -1,0 +1,66 @@
+# VSCode
+.vscode/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.dbmdl
+*.log
+*.vspscc
+*.vssscc
+*.pdb
+*.cache
+*.ilk
+*.ncb
+*.aps
+*.opensdf
+*.sdf
+*.ipch
+*.tlog
+*.vs/
+
+# Publish
+publish/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Others
+TestResults/
+*.VisualState.xml
+*.vssscc
+*.vsp
+*.vspx
+*.vsix
+*.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# Local secrets
+secrets.json
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# Linux
+*~
