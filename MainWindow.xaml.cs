@@ -1,25 +1,11 @@
-﻿using System.Text;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 using Microsoft.Identity.Client;
 using Microsoft.Graph;
-using Microsoft.Graph.Auth;
 using System.IO;
 using Microsoft.Win32;
-using System.Threading.Tasks;
 using Microsoft.Kiota.Abstractions;
 using Microsoft.Kiota.Abstractions.Authentication;
 using Microsoft.Graph.Models;
-using Microsoft.Graph.Users.Item.SendMail;
-using Microsoft.Graph.Me.Drive;
-using System.Net.Http;
 
 namespace Auth2;
 
