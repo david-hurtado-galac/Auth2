@@ -14,7 +14,7 @@
             <TextBlock Text="Asunto:"/>
             <TextBox x:Name="TxtSubject" Height="25"/>
             <TextBlock Text="Mensaje:"/>
-            <TextBox x:Name="TxtBody" Height="60" AcceptsReturn="True"/>
+            <TextBox x:Name="TxtBody" Height="60" AcceptsReturn="True" TextWrapping="Wrap"/>
             <Button x:Name="BtnSend" Content="Enviar correo" Height="35" Margin="0,10,0,0" Click="BtnSend_Click"/>
             <Separator Margin="0,10,0,10"/>
             <Button x:Name="BtnUpload" Content="Subir archivo a OneDrive" Height="35" Click="BtnUpload_Click"/>
